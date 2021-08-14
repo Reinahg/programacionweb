@@ -1,1 +1,1 @@
-Descripció de proyecto de universidad de envigado
+Descripción de proyecto de universidad de envigado
