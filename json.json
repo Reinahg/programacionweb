@@ -1,0 +1,43 @@
+
+    {
+        "idUser":"1",
+        "idRoute":"1",
+        "date":"Thu Sep 16 16:41:35 GMT 2021",
+        "ventas":[
+            {
+                "referenceSale":"1631810510261-1",
+                "idCustomer":"1",
+                "deposit":80000,
+                "products":[
+                    {
+                        "id":"0",
+                        "cantidad":"4"
+                    },
+                    {
+                        "id":"1",
+                        "cantidad":"1"
+                    }
+                ]
+            },
+            {
+                "referenceSale":"1631810524461-7",
+                "idCustomer":"7",
+                "deposit":90000,
+                "products":[
+                    {
+                        "id":"0",
+                        "cantidad":"2"
+                    },
+                    {
+                        "id":"1",
+                        "cantidad":"2"
+                    },
+                    {
+                        "id":"2",
+                        "cantidad":"1"
+                    }
+                ]
+            }
+        ]
+    }
+
