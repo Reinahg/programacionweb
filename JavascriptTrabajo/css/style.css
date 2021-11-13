@@ -1,0 +1,135 @@
+:root {
+    --color-colorppal: #FFB5E8;
+    --color-colorback: #FFFFD1;
+    --color-letterppal: #000000;
+    --color-color-backl: #AFF8DB
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.main {
+    max-width: 2500px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0px 0px;
+    padding: 1rem;
+    background-color: var(--color-colorback);
+}
+
+.Names {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 0px;
+    background-color: var(--color-colorppal);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.Names_name_order {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.Names_Enlaces {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(178, 124, 228);
+}
+
+.Names_Enlaces_data {
+    padding-top: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.Names_Imagen_Img {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    margin-left: 0.5rem;
+}
+
+.Names_Imagen {
+    border-color: black
+}
+
+.Names_name {
+    color: var(--color-letterppal);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.Activity {
+    display: flex;
+    background-color: var(--color-colorppal);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.tabla {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tabla tr {
+    border-bottom: dotted #CED3F2 0.5px;
+}
+
+.tabla td,
+.tabla th {
+    padding: 8px;
+}
+
+.tabla_title {
+    margin-bottom: 100px;
+}
+
+.Totals {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-colorppal);
+    padding: 13px 20px;
+    border-radius: 8px;
+}
+
+.Totals .button {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #CED3F2;
+    border: solid .1em rgb(163, 169, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.Totals .button span {
+    color: var(--color-letterppal);
+    margin-bottom: 5px;
+}
+
+.body_choose_banking_data_icon_data_data {
+    width: 80%;
+    column-gap: 5rem;
+    padding: 0px 12px;
+}
